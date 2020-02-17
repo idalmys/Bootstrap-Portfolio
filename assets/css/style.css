@@ -18,11 +18,27 @@ div p {
     
     
   } 
+  .card_size{
+    width: 300px;
+    height: 150px;
+
+  }
 
  .col{
     padding: 10px;
     margin: 0 !important;
     
+ }
+ .class_game{
+ 
+  font-family: 'Fondamento', cursive;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Courgette', cursive;
+
+ }
+ .game_gorder{
+  border:3px solid
+
  }
 
 footer{
