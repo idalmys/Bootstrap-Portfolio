@@ -18,6 +18,24 @@ div p {
     
     
   } 
+  .letter{
+    font-family: 'Dancing Script', cursive;
+     line-height: 30px;
+     font-weight: bold;
+     
+ 
+ }
+ .img:hover{
+   transform: scale(1.5);
+   opacity: 5px;
+ }
+ .box{
+    border-radius: 8px;
+    background-color: #22682b;
+    margin: 1%;
+    text-align: center;
+   
+}
   .card_size{
     width: 300px;
     height: 150px;
