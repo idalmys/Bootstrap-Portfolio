@@ -77,8 +77,8 @@ form{
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin-top: 10px;
-  padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 30px;
   
 }
 #contact h1, label,.btn{
