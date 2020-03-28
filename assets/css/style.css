@@ -1,90 +1,124 @@
-body{
+body {
+  position: relative; 
+  overflow-x: hidden;
+  color:#505962;
+  font-family: 'Calistoga', cursive;
+  margin: 0;
   padding: 0;
-  margin: 0; 
-  background-image: linear-gradient(rgba(162, 199, 156, 0.8), rgba(239, 235, 241, 0.7));
+ 
+ 
+}
+.navbar{
+text-transform: uppercase;
+font-weight: 700;
+font-size: .9rem;
+letter-spacing: .1rem;
+background: rgba(0,0,0,0.6)!important;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+
+}
+.navbar-dark .navbar-nav .nav-link.active ,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:#1ebba3;
+
+}
+
+
+.seccion{
+  padding-top: 70px;
+ }
+img{
+  width: 100%;
+}
+
+h1{
+  
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-shadow: rgb(18, 224, 156) 2px 2px 3px;
+}
+.jumbotron{
+background-color:white;
+width: 100%;
+max-width: 100%;
+}
+
+.jumbotron ,h1, p,strong{
+  line-height: 30px;
+}
+.card{
+  box-shadow: 0px 5px 10px 0px;
+  margin-bottom: 20px;
+  color : rgb(248, 202, 204);
+}
+form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-radius: 5px;
+  background: rgba(0,0,0, .6);
+  margin:auto;
+
+}
+
+
+#contact{
+  background-image: url("../images/contact2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  padding-top: 20px;
   
 }
-div p {
-    font-family: 'Dancing Script', cursive;
-    line-height: 30px;
-    font-weight: bold;
+#contact h1, label,.btn{
+  color: white;
+  margin-bottom: 10px;
 }
-
-.img-size{
-    
-    width: 300px;
-    height: 180px;
-    position: relative;
-    
-    
-  } 
-  .letter{
-    font-family: 'Dancing Script', cursive;
-     line-height: 30px;
-     font-weight: bold;
-     
- 
- }
- .img:hover{
-   transform: scale(1.5);
-   opacity: 5px;
- }
- .box{
-    border-radius: 8px;
-    background-color: #22682b;
-    margin: 1%;
-    text-align: center;
-   
+.btn{
+  width: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  text-transform: uppercase;
 }
-  .card_size{
-    width: 300px;
-    height: 150px;
-
-  }
-
- .col{
-    padding: 10px;
-    margin: 0 !important;
-    
- }
- .class_game{
- 
-  font-family: 'Fondamento', cursive;
-  font-family: 'Satisfy', cursive;
-  font-family: 'Courgette', cursive;
-
- }
- .game_gorder{
-  border:3px solid
-
- }
- .img_size_crystal{
-  width: 50px;
-  height: 50px;
- }
-
+.btn:hover{
+  background-color: white;
+  color:black;
+}
 footer{
-    
-    color: white;
-    text-align: center;
-    border-top: 5px solid #4aaaa5;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  
+  color:black;
+  text-transform: uppercase;
+   background-color:#40474e ;
+   text-align: center;
+   padding-top: 20px;
+   width: 100%;
 }
-section{
-    padding:100px;
-    height: 100%;
+a i{
+  padding-right: 10px;
+  color:black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  cursor: pointer;
 }
-div.desc {
-   
-    padding: 10px;
-    text-align: center;
-    background-color: #4aaaa5;
-    position: absolute;
-    width: 300px;
-    top: 130px;
-    left: 10px;
-    color:  #ffffff;
-  }
+a i:hover {
+  color:white;
+  transform: scale(1.5);
+
+}
+strong, footer p{
+  text-shadow: rgb(18, 224, 156) 2px 2px 3px;
+}
+p, h1{
+  color: black;
+}
+

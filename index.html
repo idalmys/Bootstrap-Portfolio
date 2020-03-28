@@ -1,82 +1,196 @@
-<html lang="en-us">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>
-        Bootstrap Portafolio
-      </title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Idalmys's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-       <!-- Boostrap, google font , css links -->
-      <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
+  <!---------Icon-------->
+  <link rel="icon" type="image/jpg" href="assets/images/portafolio.jpg" />
+   <!--Google font-->
+   <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+  <!-----FontAwesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!------Bottstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-  <body>
-     
-      <!-- Navbar -->
-      <header>
-          <nav class="navbar navbar-expand-lg navbar-dark default-color bg-dark fixed-top">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1"
-                  aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button> 
-              <a class="navbar-brand" href="#">Idalmys Maza</a>                
-              <div class="collapse navbar-collapse" id="navbar-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active ">
-                      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portafolio.html">Portafolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
+  <!----------Stylesheets-->
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-----------Scroll-->
+<body data-spy="scroll" data-target="#navbar-1">
+
+  <!-----Navbar and Image-->
+<section >
+  <div id="home">
+  <nav class="navbar navbar-expand-lg navbar-dark default-color bg-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1"
+        aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/web.png" class="logo" alt="Logo" style="width:30px;">
+      Idalmys Maza
+    </a>                
+    <div class="collapse navbar-collapse" id="navbar-1">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active ">
+          <a class="nav-link" href="#home">Home </a>
+        </li>
+        <li class="nav-item active ">
+          <a class="nav-link" href="#about">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<!-----Home Image---->
+<div class="home-img">
+  <img src="assets/images/ida2.jpg">
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="content">
+
+<!-----About-->
+
+<div id="about" class="seccion">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1>About me</h1> 
+      <hr></hr>     
+      <p>Computer Science Engineer with more than 5 years of experience 
+        in developing Data Warehouse and Business Intelligence solutions. 
+        Specializing in the design and implementation of the Data Presentation (BI) layer, 
+        a specialist in the design and management of relational and multidimensional Databases </p>
+        <p>She has experience in the development of solutions to support decision making on the Pentaho suite. 
+        Specialized in systems for Information Management. She has worked in project leader roles,
+        C # role developer, business intelligence analyst, business intelligence developer and database designer 
+        in projects oriented to business management to support decision making.</p>
+    </div>
+  </div>
+</div>
+
+<!-----Portfolio-->
+
+<div class="seccion" id="portfolio">
+  <article class="container" >
+    <h1>Portfolio</h1>
+    <hr>
+    <div class="row ">
+      <div class="col-md-4">                                              
+          <div class="card">
+             <img class="card-img-top" src="assets/images/trivia1.png" alt="Card image" >
+              <div class="card-body ">
+                 <h4 class="card-title"><a href=" https://idalmys.github.io/TriviaGame/"target="_blank" >Trivia Game</a></h4>
+                   <p class="card-text">Game randomizes question and allows the user to guess the answer</p>
               </div>
-          </nav>
-      </header>
-     
-      <!-- Content -->
-      <section class="container" >
-        <header><h2>About me</h2></header>  
-        <hr></hr> 
-        <article class="row" >
-            <div class="col-md-6">
-              <img class="img-fluid" src="assets/images/curriculum.jpg" 
-              alt=Idalmys Maza> 
-            </div>
-            <div class="col-md-6">
-              <p> Computer Science Engineer with more than 5 years of experience 
-                in developing Data Warehouse and Business Intelligence solutions. 
-                Specializing in the design and implementation of the Data Presentation (BI) layer, 
-                a specialist in the design and management of relational and multidimensional Databases </p>
-                <p>She has experience in the development of solutions to support decision making on the Pentaho suite. 
-                Specialized in systems for Information Management. She has worked in project leader roles,
-                C # role developer, business intelligence analyst, business intelligence developer and database designer 
-                in projects oriented to business management to support decision making</p> 
-            </div>
-        </article>
-    </section> 
-
-      <!-- Footer -->
-    
-      <footer class ="bg-dark">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-                <p class="text-center">Copyright@ 2020</p>
-            </div>
           </div>
-        </div>            
-     </footer>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/train1.png" alt="Card image" >
+           <div class="card-body ">
+              <h4 class="card-title"><a href="https://idalmys.github.io/Train-Scheduler/" target="_blank" >Train Scheduler</a></h4>
+                <p class="card-text">App allows you enter data's train and see the complete information</p>
+           </div>
+        </div>
+    </div>
+    <div class="col-md-4">                                              
+      <div class="card">
+           <img class="card-img-top" src="assets/images/crystal1.png" alt="Card image" >
+            <div class="card-body ">
+               <h4 class="card-title"><a href="https://idalmys.github.io/unit-4-game/" target="_blank">Crystal Collector</a></h4>
+                 <p class="card-text">Game randomizes the crystal values and allows the user to try to match the number given</p>
+            </div>
+      </div>
+    </div>
+    </div>
+    <div class="row ">
+      <div class="col-md-4">                                              
+          <div class="card">
+             <img class="card-img-top" src="assets/images/physic1.png" alt="Card image" >
+              <div class="card-body ">
+                 <h4 class="card-title"><a href=" https://idalmys.github.io/Psychic-Game/" target="_blank" >Pshychic Game</a></h4>
+                   <p class="card-text"> Game  guessing the letter chosen random by the computer. 
+                     If both letters match the user wins otherwise lose</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top " src="assets/images/book.png" alt="Card image" >
+           <div class="card-body ">
+              <h4 class="card-title"><a href="https://ashfordmonte.github.io/Book-A-Cook/" target="_blank" >Book a Cook</a></h4>
+                <p class="card-text">A website that allows a user to order a homemade meal from the comfort of their home.</p>
+           </div>
+        </div>
+      </div>
+      <div class="col-md-4">                                              
+        <div class="card">
+           <img class="card-img-top" src="assets/images/gif1.png" alt="Card image" >
+            <div class="card-body ">
+               <h4 class="card-title"><a href="https://idalmys.github.io/Gif-Tastic/" target="_blank" >Gif Tasty</a></h4>
+                 <p class="card-text">App that allows you load images from Giphy API  to make a dynamic
+                    web page that populates with gifs of your choice</p>
+                   
+            </div>
+        </div>
+    </div>
+    </div>
+  </article>
+</div>
 
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-      <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
-      
-  </body>
+<!-----Contact-->
+<div  id="contact" class="seccion">
+  <div class="container">
+   
+    <form class="col-md-4 " >
+      <h1>Contact</h1>
+      <div class="form-group">
+        <label for="uname">Name:</label>
+        <input type="text" class="form-control" id="uname" placeholder="Enter name" name="uname" >
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" >
+      </div>
+      <div class="form-group">
+        <label for="msg">Message:</label>
+        <textarea  class="form-control" id="msg" placeholder="Enter message" name="msg" ></textarea>
+      </div>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </div>
+</div>
+</section>
+<footer >
+  <div class="container-fluid">
+   <strong>Contact Info</strong>
+    <p>713-836-2246</p>
+    <p>idalmysmaza@gmail.com</p>
+    <a href="https://github.com/idalmys?tab=repositories" target="_blank">
+      <i class="fab fa-github-square fa-2x"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/idalmys-maza-capote-114376109/" target="_blank">
+      <i class="fab fa-linkedin fa-2x"></i>
+   </div>
+<!------Footer----->
+</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+  <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
