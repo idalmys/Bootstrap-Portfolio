@@ -121,4 +121,9 @@ strong, footer p{
 p, h1{
   color: black;
 }
-
+.col-md-4 a i{
+  padding-left: 20px;
+}
+.col-md-4 a i:hover{
+  color:#1ebba3;
+}
