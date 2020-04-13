@@ -115,9 +115,7 @@ a i:hover {
   transform: scale(1.5);
 
 }
-strong, footer p{
-  text-shadow: rgb(18, 224, 156) 2px 2px 3px;
-}
+
 p, h1{
   color: black;
 }
