@@ -60,6 +60,11 @@ max-width: 100%;
   margin-bottom: 20px;
   color : rgb(248, 202, 204);
 }
+.card:hover{
+  cursor: pointer;
+  border: 3px solid black;
+ -webkit-transform:scale(1.1);transform:scale(1.1);
+}
 form{
   align-items: center;
   display: flex;
